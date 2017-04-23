@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		813DACDC1EAD5AE900E701C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813DACDB1EAD5AE900E701C4 /* main.cpp */; };
+		813DACE41EAD5B7C00E701C4 /* AdderRemover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813DACE31EAD5B7C00E701C4 /* AdderRemover.cpp */; };
+		813DACE71EAD5C5C00E701C4 /* ARTraverser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813DACE51EAD5C5C00E701C4 /* ARTraverser.cpp */; };
+		813DACEA1EAD5CD200E701C4 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813DACE81EAD5CD200E701C4 /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		813DACD81EAD5AE900E701C4 /* OOP-HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP-HW2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813DACDB1EAD5AE900E701C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		813DACE21EAD5B0F00E701C4 /* AdderRemover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdderRemover.h; sourceTree = "<group>"; };
+		813DACE31EAD5B7C00E701C4 /* AdderRemover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdderRemover.cpp; sourceTree = "<group>"; };
+		813DACE51EAD5C5C00E701C4 /* ARTraverser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARTraverser.cpp; sourceTree = "<group>"; };
+		813DACE61EAD5C5C00E701C4 /* ARTraverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTraverser.h; sourceTree = "<group>"; };
+		813DACE81EAD5CD200E701C4 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		813DACE91EAD5CD200E701C4 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				813DACDB1EAD5AE900E701C4 /* main.cpp */,
+				813DACE21EAD5B0F00E701C4 /* AdderRemover.h */,
+				813DACE31EAD5B7C00E701C4 /* AdderRemover.cpp */,
+				813DACE61EAD5C5C00E701C4 /* ARTraverser.h */,
+				813DACE51EAD5C5C00E701C4 /* ARTraverser.cpp */,
+				813DACE91EAD5CD200E701C4 /* Node.h */,
+				813DACE81EAD5CD200E701C4 /* Node.cpp */,
 			);
 			path = "OOP-HW2";
 			sourceTree = "<group>";
@@ -121,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				813DACDC1EAD5AE900E701C4 /* main.cpp in Sources */,
+				813DACE41EAD5B7C00E701C4 /* AdderRemover.cpp in Sources */,
+				813DACE71EAD5C5C00E701C4 /* ARTraverser.cpp in Sources */,
+				813DACEA1EAD5CD200E701C4 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
