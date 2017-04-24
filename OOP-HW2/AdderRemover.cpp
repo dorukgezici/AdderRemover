@@ -29,7 +29,8 @@ void AdderRemover::removeAll() {
             head = head->next;
             nodeCount--;
         }
-        delete head;
+        head = nullptr;
+        tail = nullptr;
         nodeCount = 0;
     }
 }
@@ -50,7 +51,7 @@ void AdderRemover::display() const {
 void AdderRemover::traverse() {
     cout << name << " | " << "NodeCount:" << nodeCount << endl << "------" << endl;
     if (!traverser->hasNode()) cout << "There is no element to print" << endl;
-    for (int i = 0; i < nodeCount; i++) {
+    while (traverser->current != nullptr) {
         cout << traverser->next()->value << endl;
     }
     cout << endl;
