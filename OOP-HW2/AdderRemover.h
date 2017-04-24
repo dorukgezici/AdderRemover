@@ -17,11 +17,11 @@ class AdderRemover {
 public:
     AdderRemover();
     ~AdderRemover();
-    Node *head = nullptr;
-    Node *tail = nullptr;
+    Node *head;
+    Node *tail;
     string name = "";
     int nodeCount = 0;
-    ARTraverser *traverser = nullptr;
+    ARTraverser *traverser;
     virtual void add(int) = 0;
     virtual void remove() = 0;
     void removeAll();

@@ -15,7 +15,7 @@ class ARTraverser {
 public:
     ARTraverser();
     virtual ~ARTraverser() = 0;
-    Node *current = nullptr;
+    Node *current;
     virtual bool hasNode() = 0;
     virtual Node* next() = 0;
 };

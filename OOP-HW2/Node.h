@@ -15,9 +15,9 @@ class Node {
 public:
     Node(int);
     ~Node();
-    Node *previous = nullptr;
+    Node *previous;
     int value;
-    Node *next = nullptr;
+    Node *next;
 };
 
 #endif /* Node_h */
