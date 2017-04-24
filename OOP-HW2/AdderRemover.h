@@ -25,13 +25,14 @@ public:
     virtual void add(int) = 0;
     virtual void remove() = 0;
     void removeAll();
-    void display();
+    void display() const;
     virtual void setTraverser() = 0;
     void traverse();
 };
 
 class FAFR : public AdderRemover {
 public:
+    FAFR();
     void add(int);
     void remove();
     void setTraverser();
@@ -39,6 +40,7 @@ public:
 
 class FALR : public AdderRemover {
 public:
+    FALR();
     void add(int);
     void remove();
     void setTraverser();
@@ -46,6 +48,7 @@ public:
 
 class LAFR : public AdderRemover {
 public:
+    LAFR();
     void add(int);
     void remove();
     void setTraverser();
@@ -53,6 +56,7 @@ public:
 
 class LALR : public AdderRemover {
 public:
+    LALR();
     void add(int);
     void remove();
     void setTraverser();

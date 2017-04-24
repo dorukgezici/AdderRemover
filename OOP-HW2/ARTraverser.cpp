@@ -28,7 +28,11 @@ bool ARTF::hasNode() {
 
 Node* ARTF::next() {
     if (hasNode()) {
-        return current->next;
+        Node *tmp = current;
+        if (current->next != nullptr) {
+            current = current->next;
+        } else current = nullptr;
+        return tmp;
     } else return nullptr;
 }
 
@@ -42,6 +46,10 @@ bool ARTL::hasNode() {
 
 Node* ARTL::next() {
     if (hasNode()) {
-        return current->previous;
+        Node *tmp = current;
+        if (current->previous != nullptr) {
+            current = current->previous;
+        } else current = nullptr;
+        return tmp;
     } else return nullptr;
 }

@@ -22,14 +22,14 @@ public:
 
 class ARTF : public ARTraverser {
 public:
-    ~ARTF() {};
+    ~ARTF() { delete current; };
     bool hasNode();
     Node* next();
 };
 
 class ARTL : public ARTraverser {
 public:
-    ~ARTL() {};
+    ~ARTL() { delete current; };
     bool hasNode();
     Node* next();
 };
