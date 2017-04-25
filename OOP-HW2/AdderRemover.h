@@ -19,8 +19,8 @@ public:
     ~AdderRemover();
     Node *head;
     Node *tail;
-    string name = "";
-    int nodeCount = 0;
+    string name;
+    int nodeCount;
     ARTraverser *traverser;
     virtual void add(int) = 0;
     virtual void remove() = 0;

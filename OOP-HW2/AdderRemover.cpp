@@ -14,6 +14,8 @@ AdderRemover::AdderRemover() {
     head = nullptr;
     tail = nullptr;
     traverser = nullptr;
+    name = "";
+    nodeCount = 0;
 }
 
 AdderRemover::~AdderRemover() {
