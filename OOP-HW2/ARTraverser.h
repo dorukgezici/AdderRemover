@@ -11,12 +11,12 @@
 
 #include "Node.h"
 
-class ARTraverser {
+class ARTraverser {    
 public:
     ARTraverser();
     virtual ~ARTraverser() = 0;
-    Node *current;
     virtual bool hasNode() = 0;
+    Node *current;
     virtual Node* next() = 0;
 };
 

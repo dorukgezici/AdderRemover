@@ -14,14 +14,15 @@
 #include "ARTraverser.h"
 
 class AdderRemover {
-public:
-    AdderRemover();
-    ~AdderRemover();
+protected:
     Node *head;
     Node *tail;
     string name;
     int nodeCount;
     ARTraverser *traverser;
+public:
+    AdderRemover();
+    ~AdderRemover();
     virtual void add(int) = 0;
     virtual void remove() = 0;
     void removeAll();
